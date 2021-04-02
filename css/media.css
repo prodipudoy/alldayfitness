@@ -1,0 +1,145 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+	.heading_title h2{
+		font-size: 28px;
+	}
+	header {
+	    padding: 15px 0;
+	}
+	.navbar-toggler span{
+		color: white;
+	}
+	#navbarNav ul li a{
+		padding: 20px 0;
+	}
+	/*header end*/ 
+	/*contact section start*/
+	.left_contact_text h4{
+		text-align: center;
+		line-height: 32px;
+	}
+	.left_contact_img {
+	    margin-top: 100px;
+	}
+	.servicebox{
+		margin: 15px;
+	}
+	.left_contact_text a {
+	    font-size: 18px;
+	    padding: 10px 20px;
+	}
+	/*contact section end*/
+	/*join us section start*/
+	.join_left h2, .join_left h4, .join_left p{
+		text-align: center;
+	}
+	.join_left h2{
+		font-size: 28px;
+	}
+	.join_left h4 {
+	    font-size: 22px;
+	}
+	.single_join h2{
+		font-size: 30px;
+	}
+	/*join us section end*/
+	/*testimonial section start*/
+	.item {
+	    width: 300px;
+	    margin: 30px auto;
+	}
+	/*testimonial section end*/
+	/*footer section start*/
+	.textimonailsbtn a {
+	    font-size: 16px;
+	    padding: 15px 25px;
+	}
+	.social_iconb {
+	    margin-top: 20px;
+	}
+	/*footer section end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*header start*/
+	header {
+	    padding: 20px 0;
+	}
+	.navbar-toggler span{
+		color: white;
+	}
+	#navbarNav ul li a{
+		padding: 25px 0;
+	}
+	/*header end*/
+	/*contact section start*/
+	.left_contact_img {
+	    margin-top: 50px;
+	}
+	/*contact section end*/
+	/*jon us section start*/
+	.join_left h2, .join_left h4, .join_left p{
+		text-align: center;
+	}
+	.video_icons{
+		right: 18%;
+
+	}
+	.single_join {
+	    margin-top: 50px;
+	}
+	/*jon us section end*/
+	/*footer section start*/
+	.sigle_footerbox ul li a{
+		font-size: 14px;
+	}
+	.social_iconb{
+		margin-top: 50px;
+		text-align: left;
+	}
+
+	.footer_logobox{
+		text-align: left;
+	}
+	/*footer section end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	header {
+	    padding: 20px 0;
+	}
+	.navbar-toggler span{
+		color: white;
+	}
+	#navbarNav ul li a{
+		padding: 25px 0;
+	}
+	/*header end*/
+
+	/*jonus section start*/
+	.join_left h2 {
+	    color: #31314e;
+	    font-weight: 600;
+	    font-size: 28px;
+	}
+	.join_left h4 {
+	    font-size: 24px;
+	}
+	.video_icons{
+		right: 5%;
+
+	}
+	/*jonus section end*/
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+}
